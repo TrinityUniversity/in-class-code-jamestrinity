@@ -4,6 +4,12 @@
 
 # Home page
 GET        /                             controllers.Application.index
+GET        /test                         controllers.Application.test
+GET        /form                         controllers.Application.form
+GET        /validateForm                 controllers.Application.validateForm(username,color)
+
++nocsrf
+POST       /validateFormP                 controllers.Application.validateFormP()
 
 # Prefix must match `play.assets.urlPrefix`
 GET        /assets/*file                 controllers.Assets.at(file)

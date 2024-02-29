@@ -1,0 +1,17 @@
+@(message: String)
+
+@main("Play with Scala.js") {
+    <h3>LOGIN</h3>
+
+    <form method= "get" action="validateForm">
+        <input type="text" name="username" placeholder="Username"></input>
+        <input type="text" name="color" placeholder="Color"></input>
+        <input type="submit" value="Submit"></input>
+    </form>
+
+    <form method= "post" action="validateFormP">
+        <input type="text" name="username" placeholder="Username"></input>
+        <input type="text" name="color" placeholder="Color"></input>
+        <input type="submit" value="Submit"></input>
+    </form>
+}
