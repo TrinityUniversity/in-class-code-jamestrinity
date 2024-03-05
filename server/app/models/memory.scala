@@ -10,4 +10,7 @@ object Memory {
     if (username == "admin" && color == "admin") true
     else false
   }
+
+  
+
 }
